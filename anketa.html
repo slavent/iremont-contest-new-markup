@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Anketa</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<header>
+
+		<div class="wrapper">
+			<a href="/"><img src="img/logo.png" alt=""  id="logo"></a>
+
+			<nav>
+				<ul>
+					<li><a href="" class="item-1"><img src="img/home_icon.png" alt="">Главная</a></li>
+					<li><a href="" class="item-2">Идеи</a></li>
+					<li><a href="" class="item-3">Партнеры</a></li>
+					<li><a href="" class="item-4">Анкета</a></li>
+					<li><a href="" class="item-5 imprtnt">Отправить идею</a></li>
+				</ul>
+			</nav>
+		</div>
+
+	</header>
+
+	<div class="wrapper">
+
+		<div id="main">
+
+			<div id="content">
+				<div class="contest-info">
+					<div id="form-idea">
+						<div id="form-icon"></div>
+						<form action="">
+							<p>Есть идея получше?</p>
+							<div class="fileform">
+								<div class="selectbutton">Загрузить фотографию</div>
+								<input id="upload" type="file" name="upload" onchange="getName(this.value);"/>
+								<div id="fileformlabel"></div>
+							</div>
+
+							<label for="">Название</label>
+							<textarea name="" id="name"></textarea><br>
+							<label for="">Описание</label>
+							<textarea name="" id="desc"></textarea><br>
+							<label for="">Представьтесь</label>
+							<textarea name="" id="fio"></textarea><br>
+							<label for="">Контактный номер телефона</label>
+							<input type="text"><br>
+							<input type="button" value="Поделиться">
+						</form>
+					</div>
+				</div>
+			</div>
+			<div id="sidebar">
+				
+				<div class="banner-box">
+					<a href=""><img src="img/banner.jpg" alt=""></a>
+				</div>
+
+				<!--<div id="form-idea">
+					<div id="form-icon"></div>
+					<form action="">
+						<p>Есть идея получше?</p>
+						<label for="">Название</label>
+						<textarea name="" id="name"></textarea><br>
+						<label for="">Описание</label>
+						<textarea name="" id="desc"></textarea><br>
+						<label for="">Представьтесь</label>
+						<textarea name="" id="fio"></textarea><br>
+						<label for="">Контактный номер телефона</label>
+						<input type="text">
+						<input type="button" value="Поделиться">
+					</form>
+				</div>-->
+			</div>
+
+			<div class="clearfix"></div>
+			
+		</div>
+	
+	</div>
+
+	<footer>
+
+		<div class="wrapper">
+			<div class="item copy">
+				<p>© 2013 Идеальный ремонт</p>
+				<a href="">Отправить заявку на участие</a><br>
+				<a href=""><img src="img/footer_logo.png" alt="" id="logo"></a>
+			</div>
+			<div class="item footer-menu">
+				<ul>
+					<li><a href="">Главная</a></li>
+					<li><a href="">Выпуски</a></li>
+					<li><a href="">Советы</a></li>
+					<li><a href="">Эксперты</a></li>
+					<li><a href="">Партнеры</a></li>
+					<li><a href="">О проекте</a></li>
+				</ul>
+			</div>
+			<div class="item social">
+				<p>Мы в социальных сетях:</p>
+				<ul>
+					<li><a href="" class="icon vk"></a></li>
+					<li><a href="" class="icon ig"></a></li>
+				</ul>
+			</div>
+		</div>
+
+	</footer>
+
+	<script src="js/app.js"></script>
+	
+</body>
+</html>

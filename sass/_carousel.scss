@@ -1,0 +1,73 @@
+/* 
+    ****************************
+	START: Carousel
+	**************************** 
+*/
+
+$c_height: 80px;
+$c_item_width: 110px;
+$c_item_height: 80px;
+
+.carousel{
+	width: 100%;
+	height: $c_height;
+	overflow: hidden;
+
+	.carousel-wrap{
+		width: 9999px;
+		height: $c_height;
+
+		.carousel-item{
+			width: $c_item_width;
+			height: $c_item_height;
+			float: left;
+			margin: 0 22px 0 0;
+
+			&:hover{
+				opacity: .8;
+			}
+
+			&:active{
+				opacity: 1;
+			}
+		}
+	}
+}
+
+.carousel-nav{
+	margin: 0 0 35px 0;;
+
+	a{
+		display: block;
+		width: 8px;
+		height: 12px;
+		background: url(../img/carousel_nav.png);
+		margin-top: -45px;
+		
+		&.prev{
+			background-position: 0 12px;
+			float: left;
+			margin-left: -14px;
+		}
+
+		&.next{
+			background-position: 0 0;
+			float: right;
+			margin-right: -12px;
+		}
+
+		&:hover{
+			opacity: .8;
+		}
+
+		&:active{
+			opacity: 1;
+		}
+	}
+}
+
+/* 
+    ****************************
+	END: Carousel
+	**************************** 
+*/
